@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://raw.githubusercontent.com/marvinmuenger/flectra-outlook-addin/main/taskpane.html"/>
+        <SourceLocation DefaultValue="https://marvinmuenger.github.io/flectra-outlook-addin/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -75,7 +75,7 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://raw.githubusercontent.com/marvinmuenger/flectra-outlook-addin/main/assets/flectra-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/marvinmuenger/flectra-outlook-addin/main/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://marvinmuenger.github.io/flectra-outlook-addin/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Flectra for Outlook"/>
@@ -128,7 +128,7 @@
           <bt:Image id="Icon.80x80" DefaultValue="https://raw.githubusercontent.com/marvinmuenger/flectra-outlook-addin/main/assets/flectra-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/marvinmuenger/flectra-outlook-addin/main/taskpane.html"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="https://marvinmuenger.github.io/flectra-outlook-addin/taskpane.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="Flectra for Outlook"/>
