@@ -5,6 +5,13 @@
     flex-direction: column;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
  body {
      margin: 0;
      background-color: whitesmoke;
@@ -190,7 +197,34 @@
  .log-container {
     display: flex;
     gap: 4px;
-    justify-self: ;
+ }
+
+ .subtitle {
+    color: #787878;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+ .collapse-task-section {
+    border: 1px solid #ededed;
+    margin: 0 8px;
+    > .section-content {
+        margin-bottom: 8px;
+        > .section-card {
+            margin: 8px 0;
+            > .list-item-root-container {
+                margin: 0 8px 8px 8px;
+            }
+            > .section-top {
+                font-size: 12px;
+                > .section-title-text {
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
  }
 
  .odoo-secondary-button {
